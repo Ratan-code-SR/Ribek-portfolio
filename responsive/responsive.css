@@ -1,0 +1,175 @@
+@media screen and (max-width:576px) {
+
+    .nav-content {
+        flex-direction: column;
+        margin-bottom: -28px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .memorise-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .banner {
+
+        width: 300px;
+        height: 291px;
+        border-radius: 10px;
+    }
+
+    /* nav */
+    .nav-ul li {
+        display: block;
+
+    }
+
+    /* banner */
+    .banner-title {
+        font-size: 31px;
+        line-height: 47px;
+        margin-top: 29px;
+    }
+
+    .banner-left-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-rignt-content {
+        width: 300px;
+
+    }
+
+    .banner-rignt-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* e-commarce section */
+    .e-comarce-logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 8px 3px;
+    }
+
+
+    .e-coomerce-site-section {
+        border-top: none;
+        border-bottom: none;
+
+    }
+
+    .e-comarce-logo img {
+        width: 100%;
+    }
+
+    /* card section */
+    .card-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* features-section  */
+    .features-section {
+        flex-direction: column-reverse;
+    }
+
+    .features-right-content {
+        text-align: center;
+        width: 300px;
+    }
+
+    .features-right-content h1 {
+        font-size: 30px;
+    }
+
+    .features-left-content img {
+        padding: 0 22px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:950px) {
+    .nav-content {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    /* nav */
+    .nav-ul li {
+        margin-top: 25px;
+
+    }
+
+    /* banner */
+    .banner-title {
+        font-size: 31px;
+        line-height: 47px;
+        margin-top: 29px;
+    }
+
+    .banner-left-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-rignt-content {
+        width: 300px;
+
+    }
+
+    .banner-rignt-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* e-commarce section */
+
+    .e-coomerce-site-section {
+        border-top: none;
+        border-bottom: none;
+
+    }
+
+    .e-comarce-logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .e-comarce-logo img {
+        width: 100%;
+    }
+
+    /* card section */
+    .card-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* features-section  */
+    .features-section {
+        flex-direction: column-reverse;
+    }
+
+    .features-right-content {
+        text-align: center;
+    }
+
+    .features-right-content h1 {
+        font-size: 30px;
+    }
+
+}
